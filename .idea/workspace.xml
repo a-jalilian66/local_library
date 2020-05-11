@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="730429f6-b309-43a1-9d61-e63849fb3d43" name="Default Changelist" comment="test commit">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/locallibrary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/locallibrary/urls.py" afterDir="false" />
+    <list default="true" id="730429f6-b309-43a1-9d61-e63849fb3d43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589174764928</updated>
-      <workItem from="1589174766166" duration="8826000" />
+      <workItem from="1589174766166" duration="11805000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1589175889853</created>
@@ -57,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589175889853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add static url">
+      <created>1589196094174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589196094174</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,17 +71,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="add static url" />
+    <option name="LAST_COMMIT_MESSAGE" value="add static url" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="200" width="800" height="677" key="#Notifications" timestamp="1589175908990">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2475" y="200" width="800" height="677" key="#Notifications/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589175908990" />
-    <state x="2445" y="135" width="860" height="807" key="CommitChangelistDialog2" timestamp="1589195608705">
+    <state x="2445" y="135" width="860" height="807" key="CommitChangelistDialog2" timestamp="1589196094035">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2445" y="135" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589195608705" />
+    <state x="2445" y="135" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589196094035" />
     <state x="2651" y="282" width="447" height="513" key="FileChooserDialogImpl" timestamp="1589174814650">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

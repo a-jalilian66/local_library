@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="730429f6-b309-43a1-9d61-e63849fb3d43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/base_generic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/locallibrary/catalog/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/locallibrary/catalog/templates/catalog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/locallibrary/catalog/templates" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,7 +59,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589174764928</updated>
-      <workItem from="1589174766166" duration="11805000" />
+      <workItem from="1589174766166" duration="13477000" />
+      <workItem from="1589256879503" duration="2211000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1589175889853</created>
@@ -63,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589196094174</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add =&gt; models">
+      <created>1589199128649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589199128649</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,21 +92,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="add static url" />
-    <option name="LAST_COMMIT_MESSAGE" value="add static url" />
+    <MESSAGE value="add =&gt; models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add =&gt; models" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="200" width="800" height="677" key="#Notifications" timestamp="1589175908990">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2475" y="200" width="800" height="677" key="#Notifications/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589175908990" />
-    <state x="2445" y="135" width="860" height="807" key="CommitChangelistDialog2" timestamp="1589196094035">
+    <state x="2445" y="135" width="860" height="807" key="CommitChangelistDialog2" timestamp="1589199128295">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2445" y="135" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589196094035" />
+    <state x="2445" y="135" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589199128295" />
     <state x="2651" y="282" width="447" height="513" key="FileChooserDialogImpl" timestamp="1589174814650">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2651" y="282" width="447" height="513" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589174814650" />
+    <state x="2369" y="174" key="SettingsEditor" timestamp="1589262012904">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2369" y="174" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589262012904" />
     <state x="2475" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589186372201">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -95,5 +120,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2020" y="100" width="1720" height="882" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589176618792" />
+    <state x="2536" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1589260914911">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2536" y="366" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589260914911" />
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1589261986626">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589261986626" />
   </component>
 </project>
